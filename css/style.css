@@ -14,6 +14,9 @@ img {
     display: flex;
 }
 
+.marg-bot {
+    margin-bottom: 100px;
+}
 
 /* #region HEADER */
 header {
@@ -80,12 +83,14 @@ header {
 
 /* #endregion HEADER */
 
+/* #region MAIN */
 .container-main {
     width: 60%;
     margin: 100px auto;
     border: 1px solid red;
 }
 
+/* SELECTION BUSINESS */
 /* DEBUG */
 .selection-facture {
     background-color: aquamarine;
@@ -95,11 +100,91 @@ header {
     justify-content: space-between;
     /* DEGUB */
     background-color: blue;
-    margin-bottom: 50px;
 }
 
 .package {
     background-color: blueviolet;
     height: 700px;
     width: calc(100% / 3 - 20px);
+}
+
+.team-contact {
+    /* DEBUG */
+    height: 300px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.title-team {
+    padding: 20px;
+    background-color: bisque;
+}
+
+/* /SELECTION BUSINESS */
+
+.text-partner {
+
+    /* DEBUG */
+    flex-grow: 2;
+    height: 500px;
+    background-color: bisque;
+}
+
+.img-partner {
+
+    /* DEBUG */
+    flex-grow: 3;
+    height: 500px;
+    background-color: brown;
+}
+
+/* OPERATION BUSINESS */
+.row {
+    justify-content: space-between;
+    height: 500px;
+    flex-wrap: wrap;
+
+}
+
+.column {
+    background-color: brown;
+    height: 200px;
+    width: calc(100% / 3 - 20px);
+}
+
+/* PARTNER LOGHI */
+.partner {
+    height: 400px;
+    width: calc(100% / 3 - 10px);
+}
+
+.loghi-left {
+    background-color: beige;
+}
+
+.loghi-right {
+    background-color: blueviolet;
+}
+
+.description-partner {
+    background-color: brown;
+}
+
+.container-partner {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.loghi-left {
+    flex-wrap: wrap;
+}
+
+.loghi-right {
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: calc(100% / 2);
+    background-color: peru;
 }
