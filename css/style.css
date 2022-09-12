@@ -18,6 +18,14 @@ img {
     margin-bottom: 100px;
 }
 
+.pad-top {
+    padding-top: 60px;
+}
+
+.pad-bot {
+    padding-bottom: 60px;
+}
+
 /* #region HEADER */
 header {
     height: 60px;
@@ -86,7 +94,7 @@ header {
 /* #region MAIN */
 .container-main {
     width: 60%;
-    margin: 100px auto;
+    margin: 0 auto;
     border: 1px solid red;
 }
 
@@ -187,4 +195,24 @@ header {
 .logo {
     width: calc(100% / 2);
     background-color: peru;
+}
+
+/* FREE TRIAL */
+
+.free-trial {
+    margin-top: 0;
+    background-color: aquamarine;
+}
+
+.brings-company {
+    justify-content: space-between;
+}
+
+/* FREQUENT QUESTION */
+.question {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    /* DEBUG */
+    background-color: brown;
+    height: 70px;
 }
