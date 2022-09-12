@@ -77,3 +77,29 @@ header {
     height: 500px;
     background-color: brown;
 }
+
+/* #endregion HEADER */
+
+.container-main {
+    width: 60%;
+    margin: 100px auto;
+    border: 1px solid red;
+}
+
+/* DEBUG */
+.selection-facture {
+    background-color: aquamarine;
+}
+
+.option-business {
+    justify-content: space-between;
+    /* DEGUB */
+    background-color: blue;
+    margin-bottom: 50px;
+}
+
+.package {
+    background-color: blueviolet;
+    height: 700px;
+    width: calc(100% / 3 - 20px);
+}
