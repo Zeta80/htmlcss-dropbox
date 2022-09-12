@@ -216,3 +216,30 @@ header {
     background-color: brown;
     height: 70px;
 }
+
+/* #endregion MAIN */
+
+/* #region FOOTER */
+footer {
+    background-color: black;
+    min-height: 400px;
+}
+
+.list {
+    width: calc(100% / 5);
+    /* DEBUG */
+    background-color: azure;
+    height: 100px;
+
+}
+
+.lenguage {
+    text-align: left;
+    /* DEBUG */
+    background-color: aquamarine;
+}
+
+
+
+
+/* #endregion FOOTER */
