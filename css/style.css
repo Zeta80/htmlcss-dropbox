@@ -35,6 +35,10 @@ button {
     margin-bottom: 100px;
 }
 
+.marg-top {
+    margin-top: 2em;
+}
+
 .pad-top {
     padding-top: 1.5em;
 }
@@ -97,6 +101,7 @@ header a {
 
 .text-jumbo {
     text-align: left;
+    font-size: 1.2rem;
 }
 
 .container-updown {
@@ -142,9 +147,32 @@ header a {
 }
 
 /* SELECTION BUSINESS */
-/* DEBUG */
-.selection-facture {
-    background-color: aquamarine;
+.selection-facture h2 {
+    font-size: 3rem;
+    margin: 1em 0;
+}
+
+.selection-facture input,
+.selection-facture label {
+    font-size: 1.1rem;
+}
+
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    border: 5px solid #0061ff;
 }
 
 .option-business {
@@ -225,6 +253,10 @@ header a {
     margin-bottom: 1em;
 }
 
+.text-partner p {
+    font-size: 1.1rem;
+}
+
 .cont-img-partner {
     width: 60%;
 }
@@ -237,6 +269,29 @@ header a {
 
 .column {
     width: calc(100% / 3 - 20px);
+}
+
+.column h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+
+.column p {
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+}
+
+.section-business h2 {
+    font-size: 3rem;
+}
+
+.team-number h3 {
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+
+.team-number a {
+    font-size: 1.2em;
 }
 
 /* PARTNER LOGHI */
