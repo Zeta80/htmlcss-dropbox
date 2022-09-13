@@ -226,14 +226,10 @@ header a {
 /* OPERATION BUSINESS */
 .row {
     justify-content: space-between;
-    height: 500px;
     flex-wrap: wrap;
-
 }
 
 .column {
-    background-color: brown;
-    height: 200px;
     width: calc(100% / 3 - 20px);
 }
 
