@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 100%;
+}
+
 img {
     max-width: 100%;
 }
@@ -38,6 +42,7 @@ ul {
 header {
     position: fixed;
     top: 0;
+    z-index: 999;
     width: 100%;
     height: var(--header-heigth);
     /* width: 100%; */
@@ -56,8 +61,6 @@ header a {
     width: 100%;
     height: var(--header-heigth);
     justify-content: space-between;
-    /* DEBUG */
-    background-color: antiquewhite;
 }
 
 /* DEBUG */
@@ -79,9 +82,16 @@ header a {
 /* JUMBOTRON */
 .jumbotron {
     padding-top: var(--header-heigth);
+    background-color: #b4d0e7;
+}
 
-    /* DEBUG */
-    background-color: aquamarine;
+.jumbotron h1 {
+    font-size: 6rem;
+    margin-bottom: 0.7em;
+}
+
+.text-jumbo {
+    text-align: left;
 }
 
 .container-updown {
@@ -93,28 +103,26 @@ header a {
     border: 1px solid black;
 }
 
+.moviment {
+    position: relative;
+    transform: translateY(60px);
+}
+
 .jumbo-description {
     width: 100%;
-
-    /* DEBUG */
-    height: 500px;
-    background-color: blueviolet;
 }
 
 .text-jumbo {
+    width: 30%;
+}
 
-    /* DEBUG */
-    flex-grow: 2;
-    height: 500px;
-    background-color: bisque;
+.text-jumbo p,
+.text-jumbo button {
+    margin-bottom: 1em;
 }
 
 .img-jumbo {
-
-    /* DEBUG */
-    flex-grow: 3;
-    height: 500px;
-    background-color: brown;
+    width: 70%;
 }
 
 /* #endregion HEADER */
