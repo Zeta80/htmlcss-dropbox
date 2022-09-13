@@ -104,6 +104,7 @@ header a {
 }
 
 .moviment {
+    padding: 0;
     position: relative;
     transform: translateY(60px);
 }
@@ -144,13 +145,35 @@ header a {
 .option-business {
     justify-content: space-between;
     /* DEGUB */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .package {
-    background-color: blueviolet;
-    height: 700px;
+    border: 1px solid gray;
+    /* background-color: blueviolet; */
+    /* height: 700px; */
     width: calc(100% / 3 - 20px);
+}
+
+.packaging {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+.packaging h3 {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+}
+
+.packaging li {
+    padding-top: 1em;
+}
+
+.packaging button {
+    padding: 0.5em 1.5em;
+    margin: 2em 0;
 }
 
 .team-contact {
