@@ -5,9 +5,17 @@
     box-sizing: border-box;
 }
 
-/* COMMON */
 img {
     max-width: 100%;
+}
+
+/* COMMON */
+:root {
+    --header-heigth: 60px
+}
+
+ul {
+    list-style-type: none;
 }
 
 .flex {
@@ -28,15 +36,25 @@ img {
 
 /* #region HEADER */
 header {
-    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: var(--header-heigth);
     /* width: 100%; */
     /* DEBUG */
     background-color: aqua;
 }
 
+header a {
+    text-decoration: none;
+    padding-right: 15px;
+    /* text-decoration: inherit; */
+    color: white
+}
+
 .cont-head {
     width: 100%;
-    height: 60px;
+    height: var(--header-heigth);
     justify-content: space-between;
     /* DEBUG */
     background-color: antiquewhite;
@@ -46,12 +64,22 @@ header {
 .head-left,
 .head-right {
     width: 20%;
-    height: 60px;
+    height: var(--header-heigth);
+    line-height: var(--header-heigth);
+    padding: 0 30px;
     background-color: blue;
 }
 
+.head-right ul {
+    justify-content: flex-end;
+}
+
+
+
 /* JUMBOTRON */
 .jumbotron {
+    padding-top: var(--header-heigth);
+
     /* DEBUG */
     background-color: aquamarine;
 }
@@ -94,6 +122,7 @@ header {
 /* #region MAIN */
 .container-main {
     width: 60%;
+    max-width: 1200px;
     margin: 0 auto;
     border: 1px solid red;
 }
@@ -238,8 +267,5 @@ footer {
     /* DEBUG */
     background-color: aquamarine;
 }
-
-
-
 
 /* #endregion FOOTER */
