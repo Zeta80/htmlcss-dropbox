@@ -47,6 +47,41 @@ button {
     padding-bottom: 60px;
 }
 
+.bg-g {
+    background-color: #a2d39b;
+}
+
+.bg-brown {
+    background-color: #61082b;
+}
+
+.bg-cyan {
+    background-color: #0093ce;
+}
+
+.bg-red {
+    background-color: #ff1c1c;
+}
+
+.bg-red2 {
+    background-color: #d5001f;
+}
+
+.bg-lightblue {
+    background-color: #b4d0e7;
+}
+
+.bg-blue {
+    background-color: #0d2481;
+}
+
+.bg-yellow {
+    background-color: #ffd830;
+}
+
+
+
+
 /* #region HEADER */
 header {
     position: fixed;
@@ -106,7 +141,7 @@ header a {
 }
 
 .container-updown {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 30px;
     text-align: center;
@@ -294,8 +329,8 @@ header a {
 
 /* PARTNER LOGHI */
 .partner {
-    height: 400px;
-    width: calc(100% / 3 - 10px);
+    /* height: 400px; */
+    width: calc(100% / 3);
 }
 
 .loghi-left {
@@ -318,15 +353,28 @@ header a {
 
 .loghi-left {
     flex-wrap: wrap;
+
 }
 
 .loghi-right {
     flex-wrap: wrap;
 }
 
-.logo {
+.cont-logo {
+    display: flex;
     width: calc(100% / 2);
-    background-color: peru;
+    /* background-color: peru; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo {
+    max-width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
 
 /* FREE TRIAL */
