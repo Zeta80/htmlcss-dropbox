@@ -391,11 +391,24 @@ header a {
     vertical-align: middle;
 }
 
+
 /* FREE TRIAL */
+.background-free-trial {
+    background-color: #b4d0e7;
+}
 
 .free-trial {
     margin-top: 0;
-    background-color: aquamarine;
+}
+
+.text-brings h3 {
+    color: #61082b;
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+.button-brings {
+    margin-top: 1em;
 }
 
 .brings-company {
@@ -403,12 +416,27 @@ header a {
 }
 
 /* FREQUENT QUESTION */
+.frequent-questions h3 {
+    font-size: 2rem;
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
 .question {
+    padding: 1.5em 0;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
-    /* DEBUG */
-    background-color: brown;
-    height: 70px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.active {
+    display: none;
+    margin-top: 1em;
+}
+
+.question:active .active {
+    display: block;
 }
 
 /* #endregion MAIN */
