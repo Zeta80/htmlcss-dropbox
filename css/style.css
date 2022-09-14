@@ -54,16 +54,20 @@ header {
     z-index: 999;
     width: 100%;
     height: var(--header-heigth);
-    /* width: 100%; */
-    /* DEBUG */
-    background-color: aqua;
+    background-color: white;
+}
+
+header #logo {
+    vertical-align: middle;
+    min-width: 120px;
+    padding-right: 1em;
 }
 
 header a {
     text-decoration: none;
     padding-right: 15px;
     /* text-decoration: inherit; */
-    color: white
+    color: black
 }
 
 .cont-head {
@@ -79,14 +83,11 @@ header a {
     height: var(--header-heigth);
     line-height: var(--header-heigth);
     padding: 0 30px;
-    background-color: blue;
 }
 
 .head-right ul {
     justify-content: flex-end;
 }
-
-
 
 /* JUMBOTRON */
 .jumbotron {
@@ -109,8 +110,6 @@ header a {
     margin: 0 auto;
     padding-top: 30px;
     text-align: center;
-    /* DEBUG */
-    border: 1px solid black;
 }
 
 .moviment {
@@ -141,9 +140,8 @@ header a {
 /* #region MAIN */
 .container-main {
     width: 60%;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 /* SELECTION BUSINESS */
