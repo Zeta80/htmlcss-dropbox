@@ -19,6 +19,12 @@ img {
     --header-heigth: 60px
 }
 
+hr {
+    width: 15%;
+    color: rgb(228, 228, 228);
+    margin: 2em 0;
+}
+
 ul {
     list-style-type: none;
 }
@@ -112,6 +118,10 @@ button {
     color: white;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 .btn-white {
     color: black;
     border: 2px solid lightslategrey;
@@ -124,6 +134,32 @@ button {
     display: inline-block;
     text-align: right;
 }
+
+.block {
+    display: block;
+}
+
+.check-blu::before {
+    content: "\2713";
+    color: #0061ff;
+}
+
+.share::before {
+    content: "\f1e0";
+}
+
+.user-icon::before {
+    content: "\f007";
+}
+
+.team-icon::before {
+    content: "\e533"
+}
+
+.folder::before {
+    content: "\f07b";
+}
+
 
 /* #region HEADER */
 header {
@@ -237,6 +273,9 @@ header a {
     font-size: 1.1rem;
 }
 
+.selection-facture label {
+    margin-right: 2em;
+}
 
 .checkbox-round {
     width: 1.3em;
@@ -483,7 +522,7 @@ header a {
 /* #region FOOTER */
 footer {
     background-color: black;
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .list {
@@ -508,7 +547,15 @@ footer {
 
 .lenguage {
     text-align: left;
-    color: lightgray;
+    color: gray;
+}
+
+.lenguage::before {
+    content: "\f57d";
+}
+
+.lenguage::after {
+    content: "\f0de";
 }
 
 /* #endregion FOOTER */
