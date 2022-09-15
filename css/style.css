@@ -7,6 +7,7 @@
 
 html {
     font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -29,6 +30,10 @@ button {
 
 .flex {
     display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 .marg-bot {
@@ -87,8 +92,38 @@ button {
     background-color: #ffd830;
 }
 
+.bg-lightblu {
+    background-color: #b4d0e7;
+}
 
+.center {
+    text-align: center;
+    padding: .5em 0;
+}
 
+.border {
+    border-bottom: 1px solid lightgray;
+}
+
+.btn {
+    background-color: #0061ff;
+    padding: 0.7em 1.5em;
+    border: none;
+    color: white;
+}
+
+.btn-white {
+    color: black;
+    border: 2px solid lightslategrey;
+    background-color: white;
+}
+
+.arrow-down {
+    position: relative;
+    left: 300px;
+    display: inline-block;
+    text-align: right;
+}
 
 /* #region HEADER */
 header {
@@ -122,7 +157,7 @@ header a {
 /* DEBUG */
 .head-left,
 .head-right {
-    width: 20%;
+    min-width: 20%;
     height: var(--header-heigth);
     line-height: var(--header-heigth);
     padding: 0 30px;
@@ -132,14 +167,18 @@ header a {
     justify-content: flex-end;
 }
 
+.head-right
+
 /* JUMBOTRON */
 .jumbotron {
     padding-top: var(--header-heigth);
-    background-color: #b4d0e7;
+    /* background-color: #b4d0e7; */
 }
 
 .jumbotron h1 {
-    font-size: 6rem;
+    text-align: left;
+    margin-top: 70px;
+    font-size: 4rem;
     margin-bottom: 0.7em;
 }
 
